@@ -1,14 +1,28 @@
-.center {
-    margin: auto;
-    width: 175px;
-    border: 5px solid rebeccapurple;
+body {
+    font: 14px "Bahnschrift";
 }
 .header {
     height: 100px;
     width: 600px;
-    border: 3px solid rosybrown;
+    border: 1px solid rosybrown;
     background: seashell;
     margin: auto;
     text-align: center;
-    font-family: Bahnschrift;
+}
+.center {
+    height: 100px;
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: beige 10px;
+    background: seashell;
+    border: 2px solid rosybrown;
+}
+input {
+    text-align: left;
+    margin-top: 5px;
+    padding: 2px;
+    font: 14px "Bahnschrift";
 }
