@@ -1,5 +1,5 @@
 <?php
-require ('header.php');
+require('header.php');
 define("URL", "api.vk.com/method");
 $count = $_POST['count'];
 //$b = $_POST['countImage'];
@@ -38,5 +38,8 @@ function parsDoc($count) {
 }
 
 parsDoc($count);
+
+
+
 
 
